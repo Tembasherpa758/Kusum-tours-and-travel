@@ -1,0 +1,699 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trekking Adventures</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+    <style>
+        /* CSS for the header */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333; /* Darker header background color */
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Ensures header stays on top */
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav-links li {
+            margin: 0 15px;
+        }
+        .nav-links li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+        .nav-links li a:hover {
+            color: #ffd700; /* Hover color */
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">Kusum tours and travel</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Treks</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Other sections of your webpage would follow here -->
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trekking Adventures</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+    <style>
+        /* CSS for the introduction section */
+        .introduction {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+            padding: 80px 0;
+            text-align: center;
+        }
+        .introduction h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .introduction p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .introduction .usp {
+            margin-top: 40px;
+        }
+        .usp {
+            background-color: #333; /* Darker background color for USP section */
+            padding: 20px 0;
+        }
+        .usp p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Your header code here -->
+    </header>
+
+    <section class="introduction">
+        <div class="container">
+            <h1>Welcome to Kusum tours and travel</h1>
+            <p>Embark on unforgettable journeys through breathtaking landscapes with our expert guides.</p>
+            <div class="usp">
+                <p>Experience the thrill of trekking with knowledgeable guides, explore diverse destinations, and support sustainable practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other sections of your webpage would follow here -->
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusum tours and travel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+    <style>
+        /* CSS for the treks overview section */
+        .treks-overview {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+            padding: 80px 0;
+            text-align: center;
+        }
+        .treks {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .trek {
+            width: calc(33.33% - 40px);
+            margin: 20px;
+            background-color: #333; /* Darker background color for each trek card */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .trek:hover {
+            transform: translateY(-5px);
+        }
+        .trek img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .trek h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .trek p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Your header code here -->
+    </header>
+
+    <section class="treks-overview">
+        <div class="container">
+            <h2>Featured Treks</h2>
+            <div class="treks">
+                <div class="trek">
+                    <img src="trek1.jpg" alt="Trek 1">
+                    <h3>Trek Name 1</h3>
+                    <p>Discover stunning landscapes and breathtaking views on this challenging trek.</p>
+                </div>
+                <div class="trek">
+                    <img src="trek2.jpg" alt="Trek 2">
+                    <h3>Trek Name 2</h3>
+                    <p>Explore ancient trails and encounter diverse wildlife on this intermediate trek.</p>
+                </div>
+                <div class="trek">
+                    <img src="trek3.jpg" alt="Trek 3">
+                    <h3>Trek Name 3</h3>
+                    <p>Experience serene lakes and lush forests on this beginner-friendly trek.</p>
+                </div>
+                <!-- Add more trek cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Other sections of your webpage would follow here -->
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trekking Adventures</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+    <style>
+        /* CSS for the about us section */
+        .about-us {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+            padding: 80px 0;
+            text-align: center;
+        }
+        .about-us .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .about-us h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .about-us p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .team-members {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .team-member {
+            width: calc(33.33% - 40px);
+            margin: 20px;
+            background-color: #333; /* Darker background color for each team member card */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .team-member h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .team-member p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Your header code here -->
+    </header>
+
+    <section class="about-us">
+        <div class="container">
+            <h2>About Kusum tours and travel</h2>
+            <p>At Kusum tours and travel, we are passionate about exploring the great outdoors and sharing unforgettable trekking experiences with our clients. Our mission is to provide safe, enjoyable, and eco-friendly adventures in some of the most beautiful landscapes on Earth.</p>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="team-member1.jpg" alt="Team Member 1">
+                    <h3>Ang temba sherpa</h3>
+                    <p>Founder & Lead Guide</p>
+                </div>
+                <div class="team-member">
+                    <img src="team-member2.jpg" alt="Team Member 2">
+                    <h3>Lambabu sherpa</h3>
+                    <p>Expedition Coordinator</p>
+                </div>
+                <!-- Add more team member cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Other sections of your webpage would follow here -->
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusum tours and travel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+    <style>
+        /* CSS for the destinations section */
+        .destinations {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+            padding: 80px 0;
+            text-align: center;
+        }
+        .destinations .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .destinations h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .destinations .destination {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .destination-card {
+            width: calc(33.33% - 40px);
+            margin: 20px;
+            background-color: #333; /* Darker background color for each destination card */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .destination-card:hover {
+            transform: translateY(-5px);
+        }
+        .destination-card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .destination-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .destination-card p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Your header code here -->
+    </header>
+
+    <section class="destinations">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="destination">
+                <div class="destination-card">
+                    <img src="destination1.jpg" alt="Destination 1">
+                    <h3>Mount Everest Base Camp</h3>
+                    <p>Explore the iconic trek to Everest Base Camp, surrounded by majestic Himalayan peaks.</p>
+                </div>
+                <div class="destination-card">
+                    <img src="destination2.jpg" alt="Destination 2">
+                    <h3>Machu Picchu</h3>
+                    <p>Hike the Inca Trail to Machu Picchu and discover ancient ruins nestled in the Andes mountains.</p>
+                </div>
+                <div class="destination-card">
+                    <img src="destination3.jpg" alt="Destination 3">
+                    <h3>Kilimanjaro</h3>
+                    <p>Challenge yourself with a trek to the summit of Mount Kilimanjaro, the highest peak in Africa.</p>
+                </div>
+                <!-- Add more destination cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Other sections of your webpage would follow here -->
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusum tours and travel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+    <style>
+        /* CSS for the testimonials section */
+        .testimonials {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+            padding: 80px 0;
+            text-align: center;
+        }
+        .testimonials .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .testimonials h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .testimonial {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333; /* Darker background color for each testimonial */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .testimonial:hover {
+            transform: translateY(-5px);
+        }
+        .testimonial p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .testimonial .author {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Your header code here -->
+    </header>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>"I had an amazing experience with Trekking Adventures! The guides were knowledgeable, the scenery was breathtaking, and the overall organization was top-notch. Highly recommended!"</p>
+                <p class="author">- John Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"Trekking with this company was a life-changing experience. From start to finish, everything was well-planned and executed. I can't wait to book my next adventure!"</p>
+                <p class="author">- Jane Smith</p>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+    </section>
+
+    <!-- Other sections of your webpage would follow here -->
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trekking Adventures</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+    <style>
+        /* CSS for the blog section */
+        .blog {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+            padding: 80px 0;
+            text-align: center;
+        }
+        .blog .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .blog h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .blog .articles {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .article {
+            width: calc(50% - 40px);
+            margin: 20px;
+            background-color: #333; /* Darker background color for each article card */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+        .article:hover {
+            transform: translateY(-5px);
+        }
+        .article h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .article p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .article .author {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Your header code here -->
+    </header>
+
+    <section class="blog">
+        <div class="container">
+            <h2>Latest Articles</h2>
+            <div class="articles">
+                <div class="article">
+                    <h3>Top 10 Essential Items for Trekking</h3>
+                    <p>Discover the must-have gear for your next trekking adventure, ensuring comfort and safety.</p>
+                    <p class="author">By John Doe</p>
+                </div>
+                <div class="article">
+                    <h3>Exploring the Hidden Gems of Patagonia</h3>
+                    <p>Explore lesser-known trails and breathtaking landscapes in Patagonia, South America.</p>
+                    <p class="author">By Jane Smith</p>
+                </div>
+                <!-- Add more articles as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Other sections of your webpage would follow here -->
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusum tours and travel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+    <style>
+        /* CSS for the contact section */
+        .contact {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+            padding: 80px 0;
+            text-align: center;
+        }
+        .contact .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .contact p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .contact form {
+            background-color: #333; /* Darker background color for the form */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .contact form label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        .contact form input[type="text"],
+        .contact form input[type="email"],
+        .contact form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            border-bottom: 2px solid #ffffff;
+            font-size: 1rem;
+        }
+        .contact form textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        .contact form input[type="submit"] {
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .contact form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Your header code here -->
+    </header>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a question or want to know more about our Kusum tours and travel? Drop us a message!</p>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="required" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="reuired" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <!-- Other sections of your webpage would follow here -->
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusum tours and travel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+    <style>
+        /* CSS for the footer section */
+        .footer {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #ffffff; /* Light text color */
+            padding: 40px 0;
+            text-align: center;
+        }
+        .footer p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .footer .social-icons {
+            margin-top: 20px;
+        }
+        .footer .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #ffffff;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        .footer .social-icons a:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Kusum tours and travel. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include Font Awesome for social icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
+
